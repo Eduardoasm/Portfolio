@@ -9,7 +9,7 @@ import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 
 const Contact = () => {
   return (
-    <div id='contact' className='w-full lg:h-screen'>
+    <div id='contacto' className='w-full lg:h-screen'>
       <div className='max-w-[1240px] m-auto px-2 py-16 w-full '>
         <h2 className='text-xl tracking-widest uppercase text-[#5651e5]'>
           Contacto
@@ -25,7 +25,7 @@ const Contact = () => {
               >
                 <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
                   <div className='flex flex-col'>
-                    <label className='uppercase text-sm py-2'>Nombre</label>
+                    <label className='uppercase text-sm py-2 text-black'>Nombre</label>
                     <input
                       className='border-2 rounded-lg p-3 flex border-gray-300'
                       type='text'
@@ -33,7 +33,7 @@ const Contact = () => {
                     />
                   </div>
                   <div className='flex flex-col'>
-                    <label className='uppercase text-sm py-2'>
+                    <label className='uppercase text-sm py-2 text-black'>
                       Telefono
                     </label>
                     <input
@@ -44,7 +44,7 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className='flex flex-col py-2'>
-                  <label className='uppercase text-sm py-2'>Correo</label>
+                  <label className='uppercase text-sm py-2 text-black'>Correo</label>
                   <input
                     className='border-2 rounded-lg p-3 flex border-gray-300'
                     type='email'
@@ -52,7 +52,7 @@ const Contact = () => {
                   />
                 </div>
                 <div className='flex flex-col py-2'>
-                  <label className='uppercase text-sm py-2'>Sujeto</label>
+                  <label className='uppercase text-sm py-2 text-black'>Sujeto</label>
                   <input
                     className='border-2 rounded-lg p-3 flex border-gray-300'
                     type='text'
@@ -60,7 +60,7 @@ const Contact = () => {
                   />
                 </div>
                 <div className='flex flex-col py-2'>
-                  <label className='uppercase text-sm py-2'>Mensaje</label>
+                  <label className='uppercase text-sm py-2 text-black'>Mensaje</label>
                   <textarea
                     className='border-2 rounded-lg p-3 border-gray-300'
                     rows='10'

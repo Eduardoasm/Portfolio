@@ -8,11 +8,11 @@ import ProjectItem from './ProyectoItem';
 
 const Projects = () => {
   return (
-    <div className="w-full lg:h-screen p-2">
+    <div className="w-full lg:h-screen p-2" id="proyectos">
       <div className="max-w-[1240px] mx-auto mt-20 flex flex-col justify-center h-full">
     <div id='projects' className='w-full'>
       <div className='max-w-[1240px] mx-auto px-2 py-16'>
-        <h1 className="text-xl uppercase mb-10">
+        <h1 className="text-xl uppercase mb-10 text-black">
           Proyectos
         </h1>
         <div className='grid md:grid-cols-2 gap-8 mb-20'>
